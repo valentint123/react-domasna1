@@ -1,0 +1,59 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.family-tree {
+  border: 2px solid #333;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.children-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.child {
+  flex: 1;
+  border: 1px solid #666;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #e9e9e9;
+}
+
+.grandchildren-container {
+  margin-top: 10px;
+}
+
+.grandchild {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px dashed #999;
+  border-radius: 4px;
+  background-color: #fff;
+  color:black;
+}
+
+h1, h2, h3 {
+  color: #2c3e50;
+}
