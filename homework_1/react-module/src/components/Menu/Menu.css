@@ -1,0 +1,33 @@
+.menu {
+    background-color: #61dafb;
+    padding: 1rem;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.menu li a {
+    color: #282c34;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.menu li a:hover {
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        align-items: center;
+    }
+}
