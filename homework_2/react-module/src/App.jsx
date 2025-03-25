@@ -37,24 +37,24 @@ function App() {
       };
   
     return (
-    //   <div className="App">
-    //     <h1>User Profile Comparison</h1>
-    //     <div className="components-container">
-    //       <UserProfileClass 
-    //         name={userData.name} 
-    //         age={userData.age} 
-    //         hobby={userData.hobby} 
-    //       />
-    //       <UserProfileFunction 
-    //         name={userData.name} 
-    //         age={userData.age} 
-    //         hobby={userData.hobby} 
-    //       />
+      // <div className="App">
+      //   <h1>User Profile Comparison</h1>
+      //   <div className="components-container">
+      //     <UserProfileClass 
+      //       name={userData.name} 
+      //       age={userData.age} 
+      //       hobby={userData.hobby} 
+      //     />
+      //     <UserProfileFunction 
+      //       name={userData.name} 
+      //       age={userData.age} 
+      //       hobby={userData.hobby} 
+      //     />
           
-    //     </div>
+      //   </div>
        
         
-    //   </div>
+      // </div>
     // <div className="App">
     //         <h1>My Task Manager</h1>
     //         <TaskList items={tasks} />
