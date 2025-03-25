@@ -1,5 +1,6 @@
+import './UserProfile.css'; 
 import React from 'react';
-import './UserProfile.css'; // Same styling file
+
 
 const UserProfileFunction = ({ name, age, hobby }) => {
   return (

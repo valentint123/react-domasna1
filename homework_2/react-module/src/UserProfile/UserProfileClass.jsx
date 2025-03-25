@@ -1,5 +1,6 @@
+import './UserProfile.css'; 
 import React from 'react';
-import './UserProfile.css'; // We'll create this for styling
+
 
 class UserProfileClass extends React.Component {
   render() {
